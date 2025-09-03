@@ -1,5 +1,5 @@
 import apiService from './api';
-import { Mapping, MappingRule, Transformation, ValidationRule, ApiResponse, PaginationInfo } from '@/types';
+import { Mapping, MappingRule, Transformation, ValidationRule, ApiResponse, PaginationInfo } from '../types';
 
 interface MappingListResponse {
   mappings: Mapping[];

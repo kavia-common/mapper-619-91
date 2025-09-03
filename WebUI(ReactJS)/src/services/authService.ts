@@ -1,5 +1,5 @@
 import apiService from './api';
-import { User, LoginCredentials, RegisterData, ApiResponse } from '@/types';
+import { User, LoginCredentials, RegisterData, ApiResponse } from '../types';
 
 interface LoginResponse {
   user: User;

@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk, PayloadAction } from '@reduxjs/toolkit';
-import { Device } from '@/types';
-import deviceService from '@/services/deviceService';
+import { Device } from '../../types';
+import deviceService from '../../services/deviceService';
 
 interface DeviceState {
   devices: Device[];

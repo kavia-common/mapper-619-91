@@ -226,7 +226,7 @@ export interface ApiPath {
   tags: string[];
   parameters: ApiParameter[];
   requestBody?: ApiRequestBody;
-  responses: ApiResponse[];
+  responses: OpenApiResponse[];
   security?: ApiSecurity[];
 }
 
@@ -252,7 +252,7 @@ export interface ApiRequestBody {
   content: ApiContent[];
 }
 
-export interface ApiResponse {
+export interface OpenApiResponse {
   statusCode: number;
   description: string;
   content?: ApiContent[];

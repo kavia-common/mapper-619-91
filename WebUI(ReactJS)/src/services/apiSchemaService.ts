@@ -1,5 +1,5 @@
 import apiService from './api';
-import { ApiSchema, ApiPath, ApiModel, ApiResponse, PaginationInfo } from '@/types';
+import { ApiSchema, ApiPath, ApiModel, ApiResponse, PaginationInfo } from '../types';
 
 interface ApiSchemaListResponse {
   schemas: ApiSchema[];

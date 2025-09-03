@@ -1,5 +1,5 @@
 import apiService from './api';
-import { Device, DeviceCredentials, DeviceProtocol, YangModel, ApiResponse, PaginationInfo } from '@/types';
+import { Device, DeviceCredentials, DeviceProtocol, YangModel, ApiResponse, PaginationInfo } from '../types';
 
 interface DeviceListResponse {
   devices: Device[];

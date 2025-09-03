@@ -1,5 +1,5 @@
 import apiService from './api';
-import { Notification, NotificationType, NotificationSeverity, ApiResponse, PaginationInfo } from '@/types';
+import { Notification, NotificationType, NotificationSeverity, ApiResponse, PaginationInfo } from '../types';
 
 interface NotificationListResponse {
   notifications: Notification[];
@@ -130,7 +130,7 @@ class NotificationService {
   }
 
   // PUBLIC_INTERFACE
-  async subscribeToUpdates(callback: (notification: Notification) => void): void {
+  subscribeToUpdates(callback: (notification: Notification) => void): void {
     /**
      * Subscribe to real-time notification updates via WebSocket
      */

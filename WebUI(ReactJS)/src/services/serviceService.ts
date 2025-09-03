@@ -1,5 +1,5 @@
 import apiService from './api';
-import { Service, ServiceConfiguration, ServiceMetrics, ApiResponse, PaginationInfo } from '@/types';
+import { Service, ServiceConfiguration, ServiceMetrics, ApiResponse, PaginationInfo } from '../types';
 
 interface ServiceListResponse {
   services: Service[];

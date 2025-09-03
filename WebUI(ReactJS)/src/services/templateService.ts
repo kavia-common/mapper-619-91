@@ -1,5 +1,5 @@
 import apiService from './api';
-import { Template, TemplateVariable, TemplateTestCase, ApiResponse, PaginationInfo } from '@/types';
+import { Template, TemplateVariable, TemplateTestCase, ApiResponse, PaginationInfo } from '../types';
 
 interface TemplateListResponse {
   templates: Template[];

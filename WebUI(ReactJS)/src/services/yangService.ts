@@ -1,5 +1,5 @@
 import apiService from './api';
-import { YangModel, YangModule, ApiResponse, PaginationInfo } from '@/types';
+import { YangModel, YangModule, ApiResponse, PaginationInfo } from '../types';
 
 interface YangModelListResponse {
   models: YangModel[];
