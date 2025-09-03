@@ -73,8 +73,8 @@ const DeviceList: React.FC = () => {
             </td>
             <td className="table-cell">
               <div className="flex items-center space-x-2">
-                 <Button size="sm" variant="ghost" icon={device.connectionStatus === 'connected' ? StopCircle : Play}>
-                   {device.connectionStatus === 'connected' ? 'Disconnect' : 'Connect'}
+                 <Button size="sm" variant="ghost" icon={device.connectionStatus === ConnectionStatus.CONNECTED ? StopCircle : Play}>
+                   {device.connectionStatus === ConnectionStatus.CONNECTED ? 'Disconnect' : 'Connect'}
                  </Button>
                 <Button size="sm" variant="ghost" icon={Edit}>Edit</Button>
                 <Button size="sm" variant="ghost" icon={Trash2}>Delete</Button>

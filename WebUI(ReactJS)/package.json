@@ -76,5 +76,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:8000"
+  "proxy": "http://localhost:8000",
+  "overrides": {
+    "cross-spawn": "7.0.3"
+  }
 }
