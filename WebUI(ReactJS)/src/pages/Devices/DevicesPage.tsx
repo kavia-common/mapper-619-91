@@ -1,19 +1,24 @@
 import React from 'react';
+import PageHeader from '../../components/UI/PageHeader';
+import Button from '../../components/UI/Button';
+import DeviceList from './components/DeviceList';
+import { Plus } from 'lucide-react';
 
 // PUBLIC_INTERFACE
 const DevicesPage: React.FC = () => {
   return (
-    <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-bold text-gray-900">Devices</h1>
-        <p className="text-gray-600">
-          Manage network devices and their connections.
-        </p>
-      </div>
-      <div className="bg-white rounded-lg shadow p-6">
-        <p className="text-gray-500">Device management interface coming soon...</p>
-      </div>
-    </div>
+    <>
+      <PageHeader
+        title="Devices"
+        description="Manage network devices and their connections."
+        actions={
+          <Button icon={Plus}>
+            Add Device
+          </Button>
+        }
+      />
+      <DeviceList />
+    </>
   );
 };
 
